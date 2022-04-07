@@ -1,0 +1,19 @@
+.Header {
+  justify-content: center;
+  display: flex;
+  .Header__container {
+    width: 1200px;
+    background-color: aqua;
+  }
+  .Header__content {
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid black;
+    & h2 {
+      color: rgb(77, 77, 80);
+    }
+    & p {
+      color: black;
+    }
+  }
+}
