@@ -1,0 +1,21 @@
+.Aside {
+  // justify-content: center;
+  // display: flex;
+  width: 20vh;
+  .Aside__container {
+    // width: 1200px;
+    background-color: rgb(219, 60, 184);
+
+  }
+  .Aside__content {
+    // display: flex;
+    // flex-direction: column;
+    & .slot {
+      max-width: 10px; 
+      & img {
+        display: inline-flex;
+        width: 100px;
+      }
+    }
+  }
+}

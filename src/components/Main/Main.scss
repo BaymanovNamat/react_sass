@@ -1,0 +1,20 @@
+.Main {
+  // justify-content: center;
+  // display: flex;
+  width: 100vh;
+  .Main__container {
+    // width: 1200px;
+    background-color: rgb(238, 169, 49);
+    
+  }
+  .Main__content {
+    padding: 8px;
+    
+    & article {
+      color: red;
+    }
+    & h2 {
+      color: green;
+    } 
+  }
+}

@@ -10,7 +10,7 @@ function Nav() {
           <h2>
             Pizza
           </h2>
-
+    
           <ul>
             <li>
               <a href="/">
