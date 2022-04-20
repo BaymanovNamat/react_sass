@@ -1,0 +1,14 @@
+.Example {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.Example button {
+  font-size: 24px;
+}
+
+.sum {
+  padding: 2rem .5rem;
+}
